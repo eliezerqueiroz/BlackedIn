@@ -74,18 +74,18 @@
 
 
 .buttons-container .casdastrar{
-    background: var(--color-secundary);
+    background: var(--color-secondary);
 }
 
 
-.buttons-container .study:hover{
+.buttons-container .buscar:hover{
     background: var(--color-primary-light);
     margin-right: 1.6rem;
 }
 
 
-.buttons-container .teach:hover{
-    background: var(--color-secundary-dark);
+.buttons-container .casdastrar:hover{
+    background: var(--color-secondary-dark);
 }
 
 .total-connections {

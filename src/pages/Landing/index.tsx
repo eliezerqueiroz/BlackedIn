@@ -16,7 +16,7 @@ function Landing() {
             
             <div className="logo-container">
                 <img src={logoImg} alt="Proffy" className="blacked-logo"/>
-                <h2>Encontre Proffysionais que se identificam com você.</h2>
+                <h2>Encontre Profisionais e oportunidades que se identificam com você.</h2>
             </div>
 
             <img src={landingImg} alt="Landing img" className="hero-image"/>

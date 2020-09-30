@@ -4,27 +4,19 @@ import PageHeader from '../../components/PageHeader';
 
 import '../ProffyList/style.css'
 import ProffyCard from '../../components/ProffyCard';
+import Input from '../../components/Input';
 
 function ProffyList(){
     return (
         <div id="page-proffy-list" className="container">
-           <PageHeader title="Estes são os Proffys disponíveis">
-
+           <PageHeader title="Encontre os talentos que precisa" >
+                
                <form id="search-proffys">
-                   <div className="input-block">
-                       <label htmlFor="ocuppation">Profissão</label>
-                       <input type="text" id="ocuppation"/>
-                   </div>
 
-                   <div className="input-block">
-                       <label htmlFor="state">Estado</label>
-                       <input type="text" id="state"/>
-                   </div>
-
-                   <div className="input-block">
-                       <label htmlFor="city">Cidade</label>
-                       <input type="text" id="city"/>
-                   </div>
+                   <Input label="Profissão" name="ocuppation"/>
+                   <Input label="Estado" name="state"/>
+                   <Input label="Cidade" name="city"/>
+                   
                </form>
 
            </PageHeader>
