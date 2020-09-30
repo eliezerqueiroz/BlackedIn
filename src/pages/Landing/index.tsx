@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logoImg from '../../assets/images/logo.svg';
+import logoImg from '../../assets/images/blackedin_logo.svg';
 import landingImg from '../../assets/images/landing.svg';
 import studyIcon from '../../assets/images/icons/study.svg';
 import teachIcon from '../../assets/images/icons/give-classes.svg';
@@ -15,7 +15,7 @@ function Landing() {
         <div id="page-landing-content" className="container">
             
             <div className="logo-container">
-                <img src={logoImg} alt="Proffy"/>
+                <img src={logoImg} alt="Proffy" className="blacked-logo"/>
                 <h2>Encontre Proffysionais que se identificam com você.</h2>
             </div>
 
