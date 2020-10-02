@@ -5,6 +5,7 @@ import PageHeader from '../../components/PageHeader';
 import '../ProffyList/style.css'
 import ProffyCard from '../../components/ProffyCard';
 import Input from '../../components/Input';
+import Select from '../../components/Select';
 
 function ProffyList(){
     return (
@@ -14,8 +15,8 @@ function ProffyList(){
                <form id="search-proffys">
 
                    <Input label="Profissão" name="ocuppation"/>
-                   <Input label="Estado" name="state"/>
-                   <Input label="Cidade" name="city"/>
+                   <Select label="Estado" name="state"/>
+                   <Select label="Cidade" name="city"/>
                    
                </form>
 

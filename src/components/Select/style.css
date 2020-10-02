@@ -1,19 +1,19 @@
 
-.input-block{
+.select-block{
     position: relative;
     margin-top: 2.4rem;
 }
 
-/*aplica um margin-top em todos os .input-block depois do primeiro*/
-.input-block + .input-block{ 
+/*aplica um margin-top em todos os .select-block depois do primeiro*/
+.select-block + .select-block{ 
     margin-top: 1.4rem;
 }
 
-.input-block label{
+.select-block label{
     font-size: 1.4rem;
 }
 
-.input-block input{
+.select-block select{
     width: 100%;
     height: 5.6rem;
     border-radius: 0.8rem;
@@ -26,8 +26,8 @@
 }
 
 
-/*faz aparecer uma linh dentro do input*/
-.input-block:focus-within::after{ 
+/*faz aparecer uma linh dentro do select*/
+.select-block:focus-within::after{ 
     width: calc(100% - 3.2rem);
     height: 3px;
     content: '';

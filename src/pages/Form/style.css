@@ -28,6 +28,10 @@
     margin-top: 6.4rem;
 }
 
+#page-proffy-form main  fieldset .input-block + .textarea-block  {
+    margin-top: 2.4rem;
+}
+
 #page-proffy-form main  fieldset legend{
     font: 700 2.4rem Archivo;
     color: var(--color-text-title);

@@ -2,8 +2,10 @@ import React from 'react';
 import Input from '../../components/Input';
 import PageHeader from '../../components/PageHeader';
 import WarningIcon from '../../assets/images/icons/warning.svg'
+import TextArea from '../../components/Textarea';
 
 import '../Form/style.css'
+import Select from '../../components/Select';
 
 function Form(){
     return(
@@ -20,11 +22,11 @@ function Form(){
 
                 <Input type="text" label="Nome Completo" name="name"/>
                 <Input type="link" label="Foto" name="avatar"/>
-                <Input type="text" label="Estado" name="state"/>
-                <Input type="text" label="Cidade" name="city"/>
+                <Select  label="Estado" name="state"/>
+                <Select label="Cidade" name="city"/>
                 <Input type="text" label="Profissão" name="ocuppation"/>
                 <Input type="number" label="WhatsApp" name="whatsapp"/>
-                <Input type="textarea" label="Biografia" name="bio"/>
+                <TextArea label="Biografia" name="bio"/>
                 
             </fieldset>
 
@@ -44,7 +46,7 @@ function Form(){
 
                 <Input type="text" label="Empresa" name="company" />
                 <Input type="text" label="Cargo" name="post" />
-                <Input type="text" label="Tipo de contrato" name="contract" />
+                <Select label="Tipo de contrato" name="contract" />
                 <Input type="date" label="Ano de início" name="initi-year" />
                 <Input type="date" label="Ano de término" name="end-year" />
 
