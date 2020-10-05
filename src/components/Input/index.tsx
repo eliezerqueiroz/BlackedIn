@@ -4,14 +4,16 @@ import './style.css'
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
     name: string;
     label: string;
+
+    content?:string;
 }
 
-const Input: React.FC<InputProps> = ({name, label, ...rest}) => {
+const Input: React.FC<InputProps> = ({name, label, content, ...rest}) => {
     return(
 
         <div className="input-block">
-            <label htmlFor={name}>{label}</label>
-            <input type="text" id={name} {...rest} />
+            <label htmlFor={content}>{label}</label>
+            <input  id={content} name={name} {...rest} />
         </div>
     )   
 }

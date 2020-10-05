@@ -46,6 +46,48 @@
     padding-bottom: 1.6rem ;
 }
 
+#page-proffy-form main  fieldset legend button{
+    background: none;
+    border: 0;
+    color: var(--color-primary-lighter);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#page-proffy-form main  fieldset legend button:hover{
+    color: var(--color-primary-dark);
+}
+
+
+#page-proffy-form main  fieldset .hability-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-proffy-form main  fieldset .hability-block .input-hability{
+    width: 24rem;
+}
+
+#page-proffy-form main  fieldset .hability-block .select-level{
+    width: 22rem;    
+}
+
+
+#page-proffy-form main  fieldset .formation-block + .formation-block{
+    margin-top: 8rem;
+    border-top: solid 2px var(--color-primary);
+
+}
+
+
+#page-proffy-form main  fieldset .experience-block + .experience-block{
+    margin-top: 8rem;
+    border-top: solid 2px var(--color-primary);
+
+}
+
 #page-proffy-form main footer{
     padding: 4rem 2.4rem;
     background: var(--color-box-footer);
@@ -118,6 +160,15 @@
         margin-top: 0;
     }
 
+    #page-proffy-form main  fieldset .hability-block .input-hability{
+      width: 30rem;  
+    }
+    
+    #page-proffy-form main  fieldset .hability-block .select-level{
+        width: 25rem;
+        
+        
+    }
 
 }
 
