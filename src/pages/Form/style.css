@@ -1,6 +1,7 @@
 #page-proffy-form{
     width: 100vw;
     height: 100vh;
+    min-width: 300px;
 }
 
 #page-proffy-form .page-header .header-content{
@@ -66,12 +67,18 @@
     justify-content: space-between;
 }
 
+#page-proffy-form main  fieldset .hability-block + .hability-block{
+    margin-top: 8rem;
+    border-top: solid 2px var(--color-primary);
+
+} 
+
 #page-proffy-form main  fieldset .hability-block .input-hability{
-    width: 24rem;
+    width: 26rem;
 }
 
 #page-proffy-form main  fieldset .hability-block .select-level{
-    width: 22rem;    
+    width: 24rem;    
 }
 
 
@@ -130,9 +137,28 @@
     background: var(--color-secondary-dark);
 }
 
+@media(min-width: 300px){
+    #page-proffy-form main  fieldset .hability-block {
+        display: block;
+    }
+    
+    #page-proffy-form main  fieldset .hability-block .input-hability{
+        width: 35rem;  
+      }
+      
+      #page-proffy-form main  fieldset .hability-block .select-level{
+          width: 35rem;
+          
+          
+      }
+    
+}
+
+
 @media(min-width: 700px) {
     #page-proffy-form{
         max-width: 100vw;
+
     }
     
     #page-proffy-form .page-header .header-content{
@@ -160,6 +186,12 @@
         margin-top: 0;
     }
 
+    #page-proffy-form main  fieldset .hability-block {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     #page-proffy-form main  fieldset .hability-block .input-hability{
       width: 30rem;  
     }
@@ -169,6 +201,7 @@
         
         
     }
+ 
 
 }
 
