@@ -66,6 +66,13 @@ function Form(){
                 <Input label="Cidade" name="city"/>
                 <Input label="Profissão" name="ocuppation"/>
                 <Input type="number" label="WhatsApp" name="whatsapp"/>
+                <Select  label="Você se declara" name="etinia" options={
+                            [
+                                {value: 'black', label: 'Preto'},
+                                {value: 'pardo', label: 'Pardo'},
+                                {value: 'indigena', label: 'Indigena'}
+                            ]
+                        }/>
                 <TextArea label="Biografia" name="bio"/>
                 
             </fieldset>
