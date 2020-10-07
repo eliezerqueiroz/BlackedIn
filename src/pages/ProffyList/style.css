@@ -20,16 +20,16 @@
         max-width: 100%;
     }
 
-    #search-proffys{
+    #search-proffys {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 16px;
         position: absolute;
         bottom: -30px;
-
+        
     }
 
-    #search-proffys .input-block + .input-block{ 
+    #search-proffys .input-block{ 
         margin-top: 0;
     }
 

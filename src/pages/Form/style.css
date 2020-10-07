@@ -60,7 +60,9 @@
     color: var(--color-primary-dark);
 }
 
-
+#page-proffy-form main  fieldset .textarea-block{
+    margin-top: 2rem;
+}
 #page-proffy-form main  fieldset .hability-block{
     display: flex;
     align-items: center;

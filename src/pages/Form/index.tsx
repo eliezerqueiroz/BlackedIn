@@ -64,7 +64,12 @@ function Form(){
                 <Input type="link"  label="Foto" name="avatar" disabled/> 
                 <Input  label="Estado" name="state"/>
                 <Input label="Cidade" name="city"/>
-                <Input label="Profissão" name="ocuppation"/>
+                <Select  label="Categoria" name="category" options={
+                            [
+                                {value: 'professional', label: 'Profissional'},
+                                {value: 'entrepreneur', label: 'Empresa'},
+                            ]
+                        }/>
                 <Input type="number" label="WhatsApp" name="whatsapp"/>
                 <Select  label="Você se declara" name="etinia" options={
                             [
