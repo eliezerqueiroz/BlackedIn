@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import backIcon from '../../assets/images/icons/back.svg'
-import logoImg from '../../assets/images/logo.svg'
+import logoImg from '../../assets/images/blackedin_logo.svg'
 
 import '../PageHeader/style.css'
 
@@ -18,7 +18,7 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
                 <img src={backIcon} alt="Voltar"/>
             </Link>
 
-            <img src={logoImg} alt="ProffyLogo"/>
+            <img src={logoImg} alt="BlackedinLogo"/>
         </div>
 
 
